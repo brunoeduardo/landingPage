@@ -1,0 +1,5 @@
+# Ignore modules grunt
+/node_modules
+
+# Ignore cachce sass
+/.sass-cache

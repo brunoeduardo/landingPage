@@ -1,0 +1,35 @@
+header {
+	position: relative;
+}
+
+.header-title {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 280px;
+	color: #fff;
+	font-size: fontSize(47);
+	text-shadow: 2px 5px 8px #383838;
+}
+
+.header-description {
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+	font-weight: normal;
+	font-size: fontSize(14);
+	line-height: fontSize(20);
+}
+
+@media screen and (max-width: $grid-small){
+	.header-title {
+		top: 30%;
+		font-size: fontSize(22);
+	}
+}
+
+@media screen and (min-width: $grid-small) and (max-width: $grid-large) {
+	.header-title {
+		top: 50%;
+	}
+}

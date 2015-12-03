@@ -1,0 +1,17 @@
+.goTop {
+	width: 100px;
+	height: 40px;
+	background: #fdb933;
+	color: #fff;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+	font-size: fontSize(13); 
+
+	&:hover {
+		color: #fff;
+	}
+}

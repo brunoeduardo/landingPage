@@ -1,0 +1,27 @@
+{
+  "name": "Landing Page",
+  "version": "0.0.0",
+  "authors": [
+    "Bruno Eduardo <bruno@beduardo.com>"
+  ],
+  "description": "landing page",
+  "main": "assets/scripts/main.js",
+  "keywords": [
+    "template",
+    "landing",
+    "Page"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/",
+    "test",
+    "tests",
+    "assets/js/libs"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

@@ -1,0 +1,27 @@
+@for $i from 1 through $grid-columns{ 
+  .col-ld-#{$i} {
+    width: 100% / $grid-columns * $i;
+    max-width: $grid-large;
+  }
+}
+
+
+//medium devices
+@media (max-width: $grid-medium) {
+	@for $i from 1 through $grid-columns{ 
+	  .col-md-#{$i} {
+	    width: 100% / $grid-columns * $i;
+	  }
+	}
+}
+
+
+
+//small devices
+@media (max-width: $grid-small) {
+	@for $i from 1 through $grid-columns{ 
+	  .col-sd-#{$i} {
+	    width: 100% / $grid-columns * $i;
+	  }
+	}
+}
