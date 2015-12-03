@@ -7,7 +7,7 @@ module.exports = function( grunt ) {
       separator: ';',
     },
     dist: {
-      src: ['assets/js/libs/jquery/dist/jquery.min.js' , 'assets/js/libs/scrolling/scrolling.js'],
+      src: ['assets/js/libs/jquery-1.11.3.min/index.js' , 'assets/js/libs/scrolling/scrolling.js'],
       dest: 'assets/js/libs.js',
       },
     },//concat

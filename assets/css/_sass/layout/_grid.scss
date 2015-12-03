@@ -5,7 +5,6 @@
   }
 }
 
-
 //medium devices
 @media (max-width: $grid-medium) {
 	@for $i from 1 through $grid-columns{ 
@@ -14,8 +13,6 @@
 	  }
 	}
 }
-
-
 
 //small devices
 @media (max-width: $grid-small) {

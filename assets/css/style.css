@@ -1,4 +1,4 @@
-.rowContainer:after, [class*="col-"]:after, .section-time:after, .section-qualitys:after, .section-jobs:after {
+.rowContainer:after, [class*="col-"]:after, .section-team:after, .section-jobs:after, .section-qualitys:after {
   clear: both;
   content: " ";
   font-size: 0;
@@ -35,7 +35,8 @@ a {
     color: #287676; }
 
 img {
-  width: 100%; }
+  width: 100%;
+  border: none; }
 
 [class*="col-"] {
   float: left;
@@ -54,6 +55,13 @@ img {
     width: 205px;
     display: block;
     margin-bottom: 15px; }
+  .alink:after {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAIAAABv85FHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDBBNEZCRUY5MUM3MTFFNUE3MDJFMTlBNkVFMTExODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDBBNEZCRjA5MUM3MTFFNUE3MDJFMTlBNkVFMTExODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowMEE0RkJFRDkxQzcxMUU1QTcwMkUxOUE2RUUxMTE4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowMEE0RkJFRTkxQzcxMUU1QTcwMkUxOUE2RUUxMTE4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pof2V5IAAAD2SURBVHjaYrx5+8bzvwwi4kraAj+O3Xz2m4FNW0VRhJkBCFgYvtwoPfuGgeHG/Gin+2eOTPzBIHDfcpuHFgsDA5OagU+3PAcDw5vEjdf8I3xdGRg+PD1ef+EVUB8TAwOzvYt3ElD2y5XsYz8qA8wEGBh2n928+sUPJpDBDAIZ3sZA6vqt3duZdfvlQULdO09D5H5vO3IVRIuYebI+mvIQxAwx1QLJ3TqzreHlDwYG6bU+Cqs37D7LwCCnZF+mJcz05v7hmItAd7K0Bds+3r9uOlANj+YcRxWQH269YkhSU5OUMXAR+LGUWS5JjcvJ1FwAbBNAgAEAoOVUq8JBaScAAAAASUVORK5CYII=");
+    width: 9px;
+    height: 9px;
+    content: " ";
+    display: inline-block;
+    margin-bottom: 1px; }
 
 .col-ld-1 {
   width: 8.33333%;
@@ -202,7 +210,7 @@ header {
 @media screen and (min-width: 480px) and (max-width: 960px) {
   .header-title {
     top: 50%; } }
-.section-time {
+.section-team {
   background: #f8f8f8;
   margin: 50px 0 0;
   padding: 50px; }
@@ -224,13 +232,91 @@ header {
   font-size: 0.875rem;
   line-height: 1.375rem; }
 
-.time-title {
+.team-title {
   text-align: center;
   width: 230px;
   margin: 40px auto 35px;
   font-size: 1.125rem;
   text-transform: uppercase;
   line-height: 1.375rem; }
+
+.section-jobs {
+  padding: 50px; }
+
+.section-jobs-title {
+  margin: 50px 0 60px 0;
+  text-align: center;
+  color: #7d7873;
+  font-size: 1.125rem;
+  text-transform: uppercase; }
+
+.jobs-title {
+  color: #7d7873;
+  font-size: 1.0625rem;
+  text-transform: uppercase;
+  margin-bottom: 50px; }
+
+.table-jobs dt {
+  margin: 0 0 15px; }
+.table-jobs dd {
+  text-align: right; }
+
+@media screen and (max-width: 480px) {
+  .section-jobs, .section-team, .section-qualitys {
+    padding: 10px; }
+
+  .quality-item img {
+    width: 70%; }
+
+  .table-jobs dt {
+    margin: 0 0 5px; }
+  .table-jobs dd {
+    margin: 0 0 20px;
+    text-align: left; } }
+.no-cssremunit body {
+  font-size: 16px; }
+
+.no-cssremunit .goTop {
+  font-size: 13px; }
+
+.no-cssremunit .header-title {
+  font-size: 47px;
+  width: 960px;
+  top: -150px; }
+
+.no-cssremunit .header-description {
+  font-size: 14px;
+  line-height: 20px; }
+
+.no-cssremunit .seo-description-title {
+  font-size: 16px; }
+
+.no-cssremunit .seo-description-subTitle {
+  font-size: 16px; }
+
+.no-cssremunit .seo-description-text {
+  font-size: 14px;
+  line-height: 22px; }
+
+.no-cssremunit .team-title {
+  font-size: 18px;
+  line-height: 22px; }
+
+.no-cssremunit .quality-title {
+  font-size: 17px; }
+
+.no-cssremunit .quality-text {
+  font-size: 14px;
+  line-height: 22px; }
+
+.no-cssremunit .section-jobs-title {
+  font-size: 18px; }
+
+.no-cssremunit .jobs-title {
+  font-size: 17px; }
+
+.no-cssremunit .section-jobs, .no-cssremunit .section-team {
+  display: block; }
 
 .section-qualitys {
   padding: 50px 50px 0; }
@@ -282,39 +368,6 @@ header {
   font-size: 0.875rem;
   line-height: 1.375rem; }
 
-.section-jobs {
-  padding: 50px; }
-
-.section-jobs-title {
-  margin: 50px 0 60px 0;
-  text-align: center;
-  color: #7d7873;
-  font-size: 1.125rem;
-  text-transform: uppercase; }
-
-.jobs-title {
-  color: #7d7873;
-  font-size: 1.0625rem;
-  text-transform: uppercase;
-  margin-bottom: 50px; }
-
-.table-jobs dt {
-  margin: 0 0 15px; }
-.table-jobs dd {
-  text-align: right; }
-
-@media screen and (max-width: 480px) {
-  .section-jobs, .section-time, .section-qualitys {
-    padding: 10px; }
-
-  .quality-item img {
-    width: 70%; }
-
-  .table-jobs dt {
-    margin: 0 0 5px; }
-  .table-jobs dd {
-    margin: 0 0 20px;
-    text-align: left; } }
 .goTop {
   width: 100px;
   height: 40px;
@@ -323,7 +376,7 @@ header {
   position: fixed;
   bottom: 5px;
   right: 5px;
-  line-height: 40px;
+  line-height: 43px;
   text-align: center;
   display: none;
   font-size: 0.8125rem; }

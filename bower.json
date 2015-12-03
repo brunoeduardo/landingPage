@@ -22,6 +22,6 @@
     "assets/js/libs"
   ],
   "dependencies": {
-    "jquery": "~2.1.4"
+    "jquery-1.11.3.min": "http://code.jquery.com/jquery-1.11.3.min.js"
   }
 }

@@ -1,5 +1,5 @@
-//time section
-.section-time {
+//team section
+.section-team {
     background: $background-box;
     margin: 50px 0 0;
     padding: 50px;
@@ -27,7 +27,7 @@
     line-height: fontSize(22);
 }
 
-.time-title {
+.team-title {
     text-align: center;
     width: 230px;
     margin: 40px auto 35px;    
@@ -36,61 +36,6 @@
     line-height: fontSize(22);
 }
 
-//section qualitys company
-.section-qualitys {
-    padding: 50px 50px 0;
-
-    @extend %clearfix;
-}
-
-.quality-item {
-    padding: 0 3%;
-    margin-bottom: 30px;
-    text-align: center;
-
-    img {
-        margin-bottom: 35px;
-        max-width: 160px;
-    }
-}
-
-
-.imgAnimation img {
-    -webkit-animation-name: shake; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 1;
-    animation-name: shake;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
- 
-}
-/* Chrome, Safari, Opera */
-@-webkit-keyframes shake {
-    0%   {width: 150px}
-    50%   {width: 160px}
-    100% {width: 150px}
-}
-/* Standard syntax */
-@keyframes shake {
-    0%   {width: 150px}
-    50%   {width: 160px}
-    100% {width: 150px}
-}
-
-.quality-title {
-    text-align: center;
-    width: 100%;
-    color: $title-color;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    font-size: fontSize(17);
-}
-
-.quality-text {
-    text-align: justify;
-    font-size: fontSize(14);
-    line-height: fontSize(22);
-}
 
 //section vagas
 .section-jobs {
@@ -126,7 +71,7 @@
 
 //queries
 @media screen and (max-width: $grid-small){
-    .section-jobs , .section-time, .section-qualitys {
+    .section-jobs , .section-team, .section-qualitys {
         padding: 10px;
     }
 
