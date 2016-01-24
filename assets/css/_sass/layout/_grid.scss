@@ -1,3 +1,14 @@
+//flatou fazer um .row como container do content
+/*
+scw = (100 – (m * (mc – 1))) / mc
+
+Onde:
+
+scw = largura da coluna única
+m = margin (1.6%)
+mc = máximo de colunas (12) */
+
+
 @for $i from 1 through $grid-columns{ 
   .col-ld-#{$i} {
     width: 100% / $grid-columns * $i;
@@ -16,6 +27,9 @@
 
 //small devices
 @media (max-width: $grid-small) {
+	// 	float: none;
+	//	width: auto;
+	//Aqui, estamos dizendo ao grid para permitir que cada coluna possa ocupar a largura total do seu container para dispositivos
 	@for $i from 1 through $grid-columns{ 
 	  .col-sd-#{$i} {
 	    width: 100% / $grid-columns * $i;

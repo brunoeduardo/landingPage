@@ -1,32 +1,27 @@
 # Landing Page #
 
-Para esse projeto foi utilizado o Bower como gerenciador de dependências, grunt como task manager, SASS como pré-processador e modernizr para compatibilidade com o IE8.
+The idea this project is a simple page where i made a grid using @for in the SASS.
+
+I used HTML5 tags, modernizr to suported old browsers, css and scroll animation, too.
 
 
 ### Grids ###
 
-O grid do projeto possue 12 colunas e 3 break-points, criado no SASS, não utlizando um framework.
+The grid have 12 coluns and 3 break-points.
 
-Legenda dos break-points:
-col-ld: dispositivo de tela grande
-col-md: dispositivo de tela média
-col-sm: dispositivo de tela pequena
-
-
-### Animações ###
-
-Foi aplicado na ação de voltar ao topo e no link "Veja mais vagas", uma animação no scroll, deixando o mesmo mais suave na movimentação da página.
-
-Na área de "qualidades" da empresa, temos outra animação nas imagens de cada item, são acionadas quando a área em questão está visível e mais perto do topo da janela.
+Break-points:
+col-ld: large screens
+col-md: medium screens
+col-sm: small screens
 
 
-### Navegadores ###
+### Browser ###
 
- O projeto tem suporte para:
+ The project have support to:
 
 * IE8+
 * Chrome
 * FireFox
 
 
-Veja [online](http://www.beduardo.com/lab/landingPage)
+See [online](http://www.beduardo.com/lab/landingPage)

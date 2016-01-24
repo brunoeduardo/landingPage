@@ -10,8 +10,9 @@ function init() {
       $(".goTop").fadeOut(1500);
     }
 
-    if(scrollBar >  positionSection - 350){
+    if(scrollBar > positionSection - 350){
       $(".quality-item").addClass("imgAnimation");
+      setTimeout( function () { $(".quality-item").removeClass("imgAnimation");}, 3000 );
     }
 
   });
